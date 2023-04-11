@@ -9,7 +9,86 @@
     <title>GSAP - Star Wars</title>
 </head>
 <body>
-    
+    <section id="quiz">
+        <h2>Quiz Star Wars : Êtes-vous du côté obscur ou du côté lumineux ?</h2>
+        <p>Répondez aux questions suivantes en choisissant la réponse qui vous correspond le mieux :</p>
+        <form id="quiz-form">
+            <fieldset>
+                <legend>Question 1: Quelle est votre opinion sur l'utilisation de la Force pour obtenir ce que vous
+                    voulez ?</legend>
+                <label for="q1-a"><input type="radio" id="q1-a" name="q1" value="a"> La Force doit être utilisée pour le
+                    bien de tous</label>
+                <label for="q1-b"><input type="radio" id="q1-b" name="q1" value="b"> La Force peut être utilisée pour
+                    n'importe quel but, même si cela implique de blesser d'autres personnes</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 2: Vous êtes confronté à un choix difficile : aider un ami en danger ou protéger une
+                    cause plus grande. Que choisissez-vous ?</legend>
+                <label for="q2-a"><input type="radio" id="q2-a" name="q2" value="a"> J'aiderais mon ami sans
+                    hésiter</label>
+                <label for="q2-b"><input type="radio" id="q2-b" name="q2" value="b"> Je sacrifierais mon ami pour
+                    protéger la cause plus grande</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 3: Comment voyez-vous les Siths ?</legend>
+                <label for="q3-a"><input type="radio" id="q3-a" name="q3" value="a"> Ils sont corrompus et utilisent la
+                    Force à des fins égoïstes</label>
+                <label for="q3-b"><input type="radio" id="q3-b" name="q3" value="b"> Ils ont raison de chercher le
+                    pouvoir et la domination, peu importe le prix à payer</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 4: Comment décririez-vous le côté obscur de la Force ?</legend>
+                <label for="q4-a"><input type="radio" id="q4-a" name="q4" value="a"> C'est une source de pouvoir
+                    dangereuse et corrompue</label>
+                <label for="q4-b"><input type="radio" id="q4-b" name="q4" value="b"> C'est un outil utile pour obtenir
+                    ce que l'on veut, peu importe les moyens utilisés</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 5: Comment voyez-vous la guerre ?</legend>
+                <label for="q5-a"><input type="radio" id="q5-a" name="q5" value="a"> C'est une solution de dernier
+                    recours et il vaut mieux chercher la paix</label>
+                <label for="q5-b"><input type="radio" id="q5-b" name="q5" value="b"> C'est une opportunité de montrer sa
+                    force et de prendre le pouvoir</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 6: Comment traiteriez-vous une personne qui vous a trahi ?</legend>
+                <label for="q6-a"><input type="radio" id="q6-a" name="q6" value="a"> Je chercherais à la comprendre et à
+                    la pardonner</label>
+                <label for="q6-b"><input type="radio" id="q6-b" name="q6" value="b"> Je la punirais sans pitié</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 7: Comment voyez-vous le pouvoir ?</legend>
+                <label for="q7-a"><input type="radio" id="q7-a" name="q7" value="a"> Il doit être utilisé pour aider les
+                    autres</label>
+                <label for="q7-b"><input type="radio" id="q7-b" name="q7" value="b"> Il doit être utilisé pour dominer
+                    les autres</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 8: Comment vous comporteriez-vous face à une situation d'injustice ?</legend>
+                <label for="q8-a"><input type="radio" id="q8-a" name="q8" value="a"> Je chercherais à la corriger, même
+                    si cela signifie aller à l'encontre des règles</label>
+                <label for="q8-b"><input type="radio" id="q8-b" name="q8" value="b"> Je ne ferais rien, car cela ne me
+                    concerne pas</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 9: Comment voyez-vous les Jedi ?</legend>
+                <label for="q9-a"><input type="radio" id="q9-a" name="q9" value="a"> Ils sont des gardiens de la paix et
+                    de la justice</label>
+                <label for="q9-b"><input type="radio" id="q9-b" name="q9" value="b"> Ils sont des ennemis du pouvoir et
+                    de la liberté</label>
+            </fieldset>
+            <fieldset>
+                <legend>Question 10: Comment réagiriez-vous face à une situation où vous devez choisir entre vos
+                    intérêts personnels et ceux des autres ?</legend>
+                <label for="q10-a"><input type="radio" id="q10-a" name="q10" value="a"> Je choisirais de faire ce qui
+                    est juste pour tout le monde, même si cela me coûte</label>
+                <label for="q10-b"><input type="radio" id="q10-b" name="q10" value="b"> Je choisirais de faire ce qui
+                    est le mieux pour moi, peu importe les conséquences pour les autres</label>
+            </fieldset>
+        </form>
+        <button id="submit">Voir les résultats</button>
+        <p id="result"></p>
+    </section>
 </body>
 <script src="script.js"></script>
 </html>
